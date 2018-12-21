@@ -11,7 +11,7 @@ This app will do integration testing between appsheet.com - googlesheet - cypres
 3) Give name your App and Click Copy
 <img src="pic/screenshot-www.appsheet.com-2018.12.21-16-54-17.png">
 
-4) Go to Manage - Integrations - Unable to ON - Save API set
+4) Go to Manage - Integrations - Enable to ON - Save API set
 <img src="pic/screenshot-www.appsheet.com-2018.12.21-16-58-02.png">
 
 5) Go to Data - Tables - Choose Sample
