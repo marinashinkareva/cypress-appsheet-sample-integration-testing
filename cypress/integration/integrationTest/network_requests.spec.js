@@ -5,11 +5,11 @@ context('Cypress - Appsheet - Login - Editing rows', () => {
 
     cy.request({
       method: 'POST',
-      url: 'https://api.appsheet.com/api/v1/apps/4d3324d7-c4a1-4349-860f-45adee1243f8/tables/Sample/Action', // baseUrl is prepended to url
+      url: 'https://api.appsheet.com/api/v1/apps/db239515-83b0-4e1f-b56e-28969a348218/tables/Sample/Action', // baseUrl is prepended to url
       headers: {
         // set content-type headers
         'content-type': 'binary/octet-stream',
-        'ApplicationAccessKey': '6QAwV-R4wLJ-Xwem3-4BG9M-4GWr6-10TGI-58K1r-8tB2V'
+        'ApplicationAccessKey': 'XykYq-Lzh4p-6SCaF-XveF2-plIWp-VWgxL-MD0NT-geKB3'
       },
       form: true, // indicates the body should be form urlencoded and sets Content-Type: application/x-www-form-urlencoded headers
       body: {
@@ -24,7 +24,7 @@ context('Cypress - Appsheet - Login - Editing rows', () => {
         Rows: [
           {
             Step: '1: Position the patient',
-            Title: 'Marina.. Smth great happening very soon!',
+            Title: 'New downloads',
             Details: '33',
             Image: 'New.Step1.jpg'
           }
