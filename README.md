@@ -27,7 +27,7 @@ This app will do integration testing between appsheet.com - googlesheet - cypres
 
 2) Run at terminal <b>npm install</b>.
 
-3) Run at terminal <b>code .</b>
+3) Run at terminal <b>code .</b> (this command  open Cypress in Visual Code Studio, if it has instolled, but if you have any other code editor, please, open with your own).
 
 After opening files at code:
 Go to folder <i>Cypress - Integration - IntegrationTest - network_requests.spec.js</i>
